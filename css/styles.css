@@ -58,6 +58,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
 }
 
 .banner-content {
@@ -258,7 +259,7 @@ body {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .header {
-    position: static;
+    position: fixed;
     width: 100%;
   }
 
@@ -290,7 +291,8 @@ body {
   }
 
   .banner {
-    height: 400px;
+    height: 600px;
+    padding-top: 200px;
   }
 
   .cards {
@@ -325,7 +327,7 @@ body {
   }
 
   #section-galery {
-    padding: 24px 16px 24px 16px;
+    padding: 208px 16px 24px 16px;
   }
 
   .galery-list {
@@ -335,7 +337,7 @@ body {
   }
   
   .events {
-  padding: 96px 16px 24px 16px;
+    padding: 208px 16px 16px 16px;
   }
 
   .event-content {
@@ -356,8 +358,8 @@ body {
     gap: 0px;
   }
 
-  .events {
-    padding-top: 24px;
-    padding-bottom: 16px;
+  .flyer {
+    height: 250px;
+    min-height: 250px;
   }
 }
