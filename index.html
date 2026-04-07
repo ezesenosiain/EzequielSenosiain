@@ -13,9 +13,7 @@
 <body>
   <header class="navbar">
     <div class="navbar__container">
-      <div class="navbar__logo">
-        Ezequiel Senosiain
-      </div>
+      <div class="navbar__logo">Ezequiel Senosiain</div>
       <nav class="navbar__menu">
         <a href="#" style="color:#66FFCC">Inicio</a>
         <a href="sections/galeria.html">Galería</a>
@@ -31,12 +29,41 @@
   </header>
 
   <main>
-    <section class="hero">
+<section class="hero">
+  <div class="hero__slider">
+
+    <div class="hero__slide active">
+      <img src="img/hero1.webp" alt="Desarrollo Frontend">
+    </div>
+
+    <div class="hero__slide">
+      <img src="img/hero2.webp" alt="Diseño Gráfico">
+    </div>
+
+    <div class="hero__slide">
+      <img src="img/hero3.webp" alt="En la oficina">
+    </div>
+    
+    <div class="hero__slide">
+      <img src="img/historia3.webp" alt="En Meli">
+    </div>
+
+    <div class="hero__overlay">
       <div class="hero__content">
         <h1 class="hero__title">Diseño y Comunicación Visual</h1>
-        <p class="hero__text">Diseño y desarrollo soluciones digitales modernas,<br>funcionales y centradas en el usuario.</p>
+        <p class="hero__text">
+          Diseño y desarrollo soluciones digitales modernas, funcionales y centradas en el usuario.
+        </p>
       </div>
-    </section>
+    </div>
+
+    <div class="hero__controls">
+      <span class="hero__prev">&#10094;</span>
+      <span class="hero__next">&#10095;</span>
+    </div>
+
+  </div>
+</section>
 
     <section class="services">
       <div class="cards">
@@ -79,21 +106,21 @@
     </section>
   </main>
 
-<footer class="footer">
-  <div class="footer__container">
-    <a href="https://www.linkedin.com/in/ezequiel-senosiain/" target="_blank" class="footer__icon">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="https://www.behance.net/ezesenosiain" target="_blank" class="footer__icon">
-       <i class="fab fa-behance"></i>
-    </a>
-    <a href="https://github.com/ezesenosiain" target="_blank" class="footer__icon">
-      <i class="fab fa-github"></i>
-    </a>
-   </div>
-</footer>
+  <footer class="footer">
+    <div class="footer__container">
+      <a href="https://www.linkedin.com/in/ezequiel-senosiain/" target="_blank" class="footer__icon">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.behance.net/ezesenosiain" target="_blank" class="footer__icon">
+        <i class="fab fa-behance"></i>
+      </a>
+      <a href="https://github.com/ezesenosiain" target="_blank" class="footer__icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
